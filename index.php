@@ -27,7 +27,6 @@ if(isset($_SESSION['username'])){
 </head>
 
 <body>
-
     <!-- start of nav bar -->
     <nav>
 
@@ -59,7 +58,6 @@ if(isset($_SESSION['username'])){
     echo "<li><img src='./users/users_image/$user_image' alt='$user_image'></li> ";
 
 }
-
                               ?>
 
 
