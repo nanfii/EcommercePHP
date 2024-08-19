@@ -5,7 +5,6 @@ function BottomNotification($message, $type, $destination) {// This Code is Comm
     $iconClass = ($type === "fail") ? "fa fa-exclamation-circle" : "fa fa-check-circle";
     $notificationClass = ($type === "fail") ? "small-notification fail" : "small-notification success";
     $borderClass = ($type === "fail") ? "bottom-border fail" : "bottom-border success";
-
     echo "
     <div class='$notificationClass'>
         <span class='icon $type'><i class='$iconClass'></i></span>
@@ -15,7 +14,6 @@ function BottomNotification($message, $type, $destination) {// This Code is Comm
     <script>
         const notificationContainer = document.querySelector('.small-notification');
         notificationContainer.style.transform = 'translateX(0%)';
-
         setTimeout(() => {
             notificationContainer.style.visibility = 'hidden';
             setTimeout(() => {

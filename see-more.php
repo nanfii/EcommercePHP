@@ -11,7 +11,6 @@ $query = "SELECT * FROM `products where`";
 ?>
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 
