@@ -41,6 +41,8 @@ while ($row = mysqli_fetch_assoc($result_query)) {
     $product_price = $row['product_price'];
     $product_image1 = $row['product_image1'];
     
+
+    
 echo "
     <div class='card'>
         <div class='ratio-box'>
