@@ -6,6 +6,9 @@ if(isset($_GET['user_id'])){
     $user_id = $_GET['user_id'];
 }
 
+
+
+
 $get_ip_address = getRealIPAddr();// Chappa paymenat Integration
 $total_price = 0;
 $cart_query_price = "SELECT * FROM `cart` WHERE ip_address='$get_ip_address'";
