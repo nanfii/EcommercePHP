@@ -18,6 +18,7 @@ echo "
             <th>order date</th>
             <th>status</th>
            
+            
         </tr>
     </thead>
     <tbody>

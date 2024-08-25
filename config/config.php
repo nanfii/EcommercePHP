@@ -1,6 +1,7 @@
 <?php 
 
 /**
+ * 
  * Database configuration settings
  * This file contains the database connection setup for the application.
  */
