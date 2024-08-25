@@ -8,6 +8,7 @@ if (isset($_POST['admin_registration'])) {
     $admin_password = mysqli_real_escape_string($con, $_POST['admin_password']);
     $confirm_password = mysqli_real_escape_string($con, $_POST['confirm_password']);
 
+    
     // Check if the admin account already exists
     $check_query = "SELECT * FROM `admin_table` WHERE admin_name = '$admin_name' OR admin_email = '$admin_email'";
     $result = mysqli_query($con, $check_query);
