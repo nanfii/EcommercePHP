@@ -40,7 +40,6 @@ $query = "SELECT * FROM `products where`";
                 quam.</p>
         </article>
     </section>
-
     <script src="./js/script.js?v=<?php echo filemtime('./js/script.js'); ?>"></script>
 </body>
 </html>

@@ -20,7 +20,6 @@
             <input type="text" name="user_username" id="name" placeholder="enter user name" autocomplete="off"
                 required="required">
         </div>
-
         <div class="single-form">
             <label for="password">password</label>
             <input type="password" name="user_password" id="password" placeholder="enter password" autocomplete="off"

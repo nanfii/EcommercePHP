@@ -8,7 +8,6 @@ if(isset($_GET['user_id'])){
 
 
 
-
 $get_ip_address = getRealIPAddr();
 $total_price=0;
 $cart_query_price = "select * from `cart` where ip_address='$get_ip_address'";

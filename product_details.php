@@ -19,7 +19,6 @@ while ($row = mysqli_fetch_assoc($result_query)) {
     $product_image3 = $row['product_image3'];
 }}
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 

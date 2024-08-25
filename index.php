@@ -56,7 +56,6 @@ if(isset($_SESSION['username'])){
                         }
                         else{
     echo "<li><img src='./users/users_image/$user_image' alt='$user_image'></li> ";
-
 }
                               ?>
 

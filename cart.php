@@ -11,7 +11,6 @@ if(isset( $_SESSION['username'])){
     $row_image = mysqli_fetch_array($result_image);
     $user_image = $row_image['user_image'];
     
-    
 }?>
 
 <!DOCTYPE html>

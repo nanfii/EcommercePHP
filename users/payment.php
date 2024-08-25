@@ -7,6 +7,7 @@ include('../config/config.php');
 <!DOCTYPE html>
 <html>
 
+
 <head>
     <title>Payment Form</title>
     <link rel="stylesheet" href="../css/style.css?v=<?php echo filemtime('../css/style.css'); ?>">
