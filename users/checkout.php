@@ -104,6 +104,7 @@ if(isset( $_SESSION['username'])){
             </ul>
         </section>
     </nav>
+    
     <?php                             
     cart()                     
 ?>
